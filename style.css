@@ -1,0 +1,36 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #9675aa;
+}
+
+.bg-purple {
+  background: #562b72;
+}
+
+.btn-purple {
+  background: #562b72;
+}
+
+#projects {
+  background-color: #9675aa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.nav-link::after {
+  text-decoration: underline;
+  color: #9675aa;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  transition: background-color 1000ms, color 1000ms; /* Smooth transition effect */
+}
+
