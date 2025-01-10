@@ -149,12 +149,13 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                   <form action="https://api.web3forms.com/submit" method="POST">
-                  
                       <input type="hidden" name="access_key" value="2dee9341-00e9-4cec-a1d8-21bf5a4fcf83">
-                  
-                      <input type="text" name="name" required>
-                      <input type="email" name="email" required>
-                      <textarea name="message" required></textarea>
+                      <label for="name" class="form-label">Nama</label>
+                      <input type="text" class="form-control mb-3" id="nama" name="name" required>
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control mb-3" id="email" name="email" required>
+                      <label for="floatingTextarea2">Comments</label>
+                      <textarea id=floatingTextarea2"" name="message" required></textarea>
                       <button type="submit">Submit Form</button>
                   
                   </form>
