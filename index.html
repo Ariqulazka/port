@@ -148,25 +148,16 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                        <div class="mb-3">
-                          <label for="name" class="form-label">Nama</label>
-                          <input type="hidden" name="access_key" value="2dee9341-00e9-4cec-a1d8-21bf5a4fcf83">
-                          <input type="text" class="form-control" id="name" aria-describedby="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="hidden" name="access_key" value="2dee9341-00e9-4cec-a1d8-21bf5a4fcf83">
-                            <input type="email" class="form-control" id="email" aria-describedby="email" required>
-                          </div>
-                          <div class="form-floating mb-3">
-                            <input type="hidden" name="access_key" value="2dee9341-00e9-4cec-a1d8-21bf5a4fcf83">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Comments</label>
-                          </div>
-                      <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                        <button type="submit" class="btn btn-purple text-light shadow-sm">Kirim</button>
-                      </form>
+                  <form action="https://api.web3forms.com/submit" method="POST">
+                  
+                      <input type="hidden" name="access_key" value="2dee9341-00e9-4cec-a1d8-21bf5a4fcf83">
+                  
+                      <input type="text" name="name" required>
+                      <input type="email" name="email" required>
+                      <textarea name="message" required></textarea>
+                      <button type="submit">Submit Form</button>
+                  
+                  </form>
                 </div>
             </div>
         </div>
